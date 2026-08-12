@@ -3,12 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Today's Featured Recipe</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importing a clean serif font to match the design style -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-       
-   
 
+    <div class="recipe-card">
+        <!-- Header Image Section -->
+        <div class="card-image-container">
+            <img src="https://images.unsplash.com/photo-1586788224325-02e07172fe27?auto=format&fit=crop&w=800&q=80" alt="Red Velvet Cake" class="recipe-img">
+            <h2 class="featured-title">Today's Featured Recipe</h2>
+        </div>
+
+        <!-- Content Section -->
+        <div class="card-content">
+            <h1 class="recipe-name">Red Velvet Cake</h1>
+
+            <!-- Recipe Meta Info (Time, Ingredients, Serving) -->
+            <div class="recipe-meta">
+                <div class="meta-item">
+                    <span class="icon">⏱️</span>
+                    <span class="meta-value">20</span>
+                    <span class="meta-label">Minutes</span>
+                </div>
+                <div class="meta-item">
+                    <span class="icon">📖</span>
+                    <span class="meta-value">5</span>
+                    <span class="meta-label">Ingredients</span>
+                </div>
+                <div class="meta-item">
+                    <span class="icon">👤</span>
+                    <span class="meta-value">4-6</span>
+                    <span class="meta-label">Serving</span>
+                </div>
+            </div>
+
+            <!-- Description Text -->
+            <p class="recipe-description">
+                There's no better way to celebrate May being National Strawberry Month than by sharing a sweet treat with your pup!!! Strawberries...
+            </p>
+
+            <!-- Action Button -->
+            <button class="recipe-btn">View Recipe</button>
+        </div>
+    </div>
 
 </body>
 </html>
